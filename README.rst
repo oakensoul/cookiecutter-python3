@@ -1,8 +1,8 @@
-======================
-cookiecutter-oakensoul
-======================
-My Cookiecutter_ template for spinning up language-agnostic semi-random projects. Contains (or will contain) all of the
-various files and settings that I like to have regardless of what I'm working on.
+====================
+cookiecutter-python3
+====================
+My Cookiecutter_ template for spinning up Python 3 semi-random projects. Contains (or will contain) all of the
+various files and settings that I like to have for my Python 3 projects.
 
 My plan is to create a series of these and then add them into my dotfiles scripts using the Cookiecutter python package.
 
@@ -43,7 +43,7 @@ Usage
 CLI Usage:
     .. code-block:: bash
 
-        $ cookiecutter gh:oakensoul/cookiecutter-oakensoul
+        $ cookiecutter gh:oakensoul/cookiecutter-python3
 
 Python Usage:
     .. code-block:: python
@@ -51,7 +51,7 @@ Python Usage:
         from cookiecutter.main import cookiecutter
 
         # Create project from the cookiecutter-oakensoul.git repo template
-        cookiecutter('https://github.com/oakensoul/cookiecutter-oakensoul.git')
+        cookiecutter('https://github.com/oakensoul/cookiecutter-python3.git')
 
 Thanks & Credits
 ----------------
@@ -60,7 +60,7 @@ Thanks, and credit to `@audreyr`_ for creating the Cookiecutter_ command-line ut
 
 .. _`@audreyr`: https://github.com.com/audreyr
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`oakensoul/cookiecutter-oakensoul`: https://github.com/oakensoul/cookiecutter-oakensoul
+.. _`oakensoul/cookiecutter-python3`: https://github.com/oakensoul/cookiecutter-python3
 .. _`GitHub Repo`: https://github.com/oakensoul/cookiecutter-oakensoul
-.. _`Contributing Guidelines`: https://github.com/oakensoul/cookiecutter-oakensoul/.github/CONTRIBUTING.md
-.. _`Code of Conduct`: https://github.com/oakensoul/cookiecutter-oakensoul/.github/CODE_OF_CONDUCT.md
+.. _`Contributing Guidelines`: https://github.com/oakensoul/cookiecutter-python3/.github/CONTRIBUTING.md
+.. _`Code of Conduct`: https://github.com/oakensoul/cookiecutter-python3/.github/CODE_OF_CONDUCT.md
